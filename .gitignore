@@ -1,0 +1,14 @@
+# Ignore Bazel and build outputs
+bazel-*
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+*.jar
+*.zip
+*.exe
+*.class
+*.log
+*.params
+*.modules
+/build/
+target/
