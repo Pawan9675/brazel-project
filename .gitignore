@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore build output binaries & large files
 bazel-bin/
 bazel-out/
@@ -16,3 +17,19 @@ bazel-testlogs/
 # Optional: ignore IDE or OS-specific stuff
 .DS_Store
 *.log
+=======
+# Ignore Bazel and build outputs
+bazel-*
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+*.jar
+*.zip
+*.exe
+*.class
+*.log
+*.params
+*.modules
+/build/
+target/
+>>>>>>> 992c2695d861979658f28b79515848f45b35c63a
